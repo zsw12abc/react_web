@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import PizzaImage from '../components/PizzaImage/PizzaImage'
+
+import PizzaImage from '../components/PizzaImage/PizzaImage';
 
 class Pizza extends Component {
 	render() {
@@ -8,8 +9,8 @@ class Pizza extends Component {
 				<h1>The Pizza</h1>
 				<PizzaImage/>
 			</div>
-		)
+		);
 	}
 }
 
-export default Pizza
+export default Pizza;

@@ -1,8 +1,9 @@
-import React, {Component} from 'react';
-import ReactDom from 'react-dom'
-import {BrowserRouter} from 'react-router-dom'
-import classes from './index.css';
-import App from './App'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {BrowserRouter} from 'react-router-dom';
+
+import './index.css';
+import App from './App';
 
 const app = (
 	<BrowserRouter>
@@ -10,4 +11,4 @@ const app = (
 	</BrowserRouter>
 );
 
-ReactDom.render(app, document.getElementById('root'));
+ReactDOM.render(app, document.getElementById('root'));
